@@ -1,7 +1,7 @@
-import React from 'react'
 import Image from 'next/image'
+import React from 'react'
+import { GrFacebookOption, GrLinkedinOption, GrTwitter } from 'react-icons/gr'
 import logo from '../src/assets/Logo.png'
-import {GrFacebookOption, GrTwitter, GrLinkedinOption} from 'react-icons/gr'
 
 const Footer = () => {
   return (
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className='copyright'>
-        <p>Copyright © 2022 Dine Market</p>
+        <p>Copyright © 2024 Dine Market</p>
         <p>Design by. <span>Weird Design Studio</span></p>
         <p>Code by. <span>shabrina12 on github</span></p>
       </div>
