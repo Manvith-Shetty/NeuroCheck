@@ -47,9 +47,9 @@ const Footer = () => {
       </div>
 
       <div className='copyright'>
-        <p>Copyright © 2024 Dine Market</p>
-        <p>Design by. <span>Weird Design Studio</span></p>
-        <p>Code by. <span>shabrina12 on github</span></p>
+        <p>Copyright © 2024 Web Crafter's Studio</p>
+        <p>Design by. <span>Web Crafter's Studio</span></p>
+        <p>Code by. <span>Web Crafter's Studio</span></p>
       </div>
     </footer>
   )
