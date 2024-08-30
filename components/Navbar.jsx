@@ -21,6 +21,8 @@ const Navbar = ({ Searchproducts }) => {
         <Link href='/female'><li>Female</li></Link>
         <Link href='/male'><li>E-Components</li></Link>
         <Link href='/kids'><li>Kids</li></Link>
+        <Link href='/fashion'><li>Fashion</li></Link>
+
         <Link href='/products'><li>All Products</li></Link>
       </ul>
 
@@ -66,6 +68,9 @@ const Navbar = ({ Searchproducts }) => {
               <Link href='/female'><li>Female</li></Link>
               <Link href='/male'><li>E-Components</li></Link>
               <Link href='/kids'><li>Kids</li></Link>
+
+              <Link href='/fashion'><li>Fashion</li></Link>
+
               <Link href='/products'><li>All Products</li></Link>
             </ul>
           </div>

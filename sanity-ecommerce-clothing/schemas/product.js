@@ -25,7 +25,9 @@ export default {
                 list: [
                     {title: "Female", value: "Female"},
                     {title: "Male", value: "Male"},
-                    {title: "Kids", value: "Kids"}
+                    {title: "Kids", value: "Kids"},
+                    {title: "fashion", value: "fashion"}
+                    
                 ],
             },
         },
