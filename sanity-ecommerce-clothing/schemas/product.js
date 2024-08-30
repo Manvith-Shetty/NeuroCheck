@@ -26,7 +26,15 @@ export default {
                     {title: "Female", value: "Female"},
                     {title: "Male", value: "Male"},
                     {title: "Kids", value: "Kids"},
-                    {title: "fashion", value: "fashion"}
+                    {title: "fashion", value: "fashion"},
+                    {title: "tvelectronics", value: "tvelectronics"},
+                     {title: "medicine", value: "medicine"},
+                    {title: "beautypersonal", value: "beautypersonal"},
+                    {title: "toysgames", value: "toysgames"},
+                                        {title: "sportsandoutdoors", value: "sportsandoutdoors"}
+
+
+
                     
                 ],
             },

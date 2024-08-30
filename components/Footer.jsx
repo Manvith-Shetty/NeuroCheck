@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='footer'>
         <div className='logo'>
           <Image src={logo} width={180} height={30} alt='logo' />
-          <p>Small, artisan label that offers a thoughtfully curated collection of high quality everyday essentials made.</p>
+          <p>Discover exceptional products with seamless shopping and secure transactions. Enjoy our commitment to quality and customer satisfaction with every purchase</p>
           <div className='icon-container'>
             <div><GrTwitter size={20} /></div>
             <div><GrFacebookOption size={20} /></div>
@@ -47,9 +47,9 @@ const Footer = () => {
       </div>
 
       <div className='copyright'>
-        <p>Copyright © 2024 Web Crafter's Studio</p>
-        <p>Design by. <span>Web Crafter's Studio</span></p>
-        <p>Code by. <span>Web Crafter's Studio</span></p>
+        <p>Copyright © 2024 NeuroCreaters</p>
+        <p>Design by. <span>NeuroCreaters</span></p>
+        <p>Code by. <span>NeuroCreaters</span></p>
       </div>
     </footer>
   )

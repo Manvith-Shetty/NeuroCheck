@@ -1,7 +1,7 @@
-import React from 'react'
 import Image from 'next/image'
-import img from '../src/assets/feature.png'
 import Link from 'next/link'
+import React from 'react'
+import img from '../src/assets/feature.png'
 
 const FeaturesBanner = () => {
   return (
@@ -16,27 +16,27 @@ const FeaturesBanner = () => {
             Different from others
           </div>
           <div>
-            <h3>Using Good Quality Materials</h3>
-            <p>Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
+            <h3>Personalized Return Solutions</h3>
+            <p>Generative AI creates personalized returns, boosting trust with smart decisions.</p>
           </div>
           <div>
-            <h3>100% Handmade Products</h3>
-            <p>Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
+            <h3>Automated Refunds Simplified</h3>
+            <p>Smart contracts automate refunds, ensuring fast, secure, and transparent transactions on chain.</p>
           </div>
           <div>
-            <h3>Modern Fashion Design</h3>
-            <p>Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
+            <h3>Streamlined Transaction Management</h3>
+            <p>Automated emails send invoices for returns, ensuring real time updates.</p>
           </div>
           <div>
-            <h3>Discount for Bulk Orders</h3>
-            <p>Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
+            <h3>Effortless Shopping Experience</h3>
+            <p>Effortless shopping with automated returns, ensuring happy and satisfied customers.</p>
           </div>
         </div>
 
         <div className='right'>
           <Image src={img} width={300} height={350} alt='img' />
           <div>
-            <p>This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care. The Natural color is the actual natural color of the fiber, undyed and 100% traceable.</p>
+            <p>This product is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care. The natural color is the actual natural hue of the ingredients, undyed and 100% traceable.</p>
             <Link href={'/products'}>
               <button className='btn' type='button'>See All Product</button>
             </Link>

@@ -18,10 +18,18 @@ const Navbar = ({ Searchproducts }) => {
         <Image src={logo} width={140} height={25} alt='logo' />
       </Link>
       <ul className='nav-links'>
-        <Link href='/female'><li>Female</li></Link>
-        <Link href='/male'><li>E-Components</li></Link>
-        <Link href='/kids'><li>Kids</li></Link>
+        {/* <Link href='/female'><li>Female</li></Link> */}
+        {/* <Link href='/male'><li>E-Components</li></Link> */}
+        <Link href='/toys'><li>Toys</li></Link>
         <Link href='/fashion'><li>Fashion</li></Link>
+        <Link href='/tvelectronics'><li>Electronics</li></Link>
+        <Link href='/medicine'><li>Medicine</li></Link>
+        <Link href='/beautypersonal'><li>Beauty</li></Link>
+        <Link href='/sportsoutdoors'><li>Sports</li></Link>
+
+
+
+
 
         <Link href='/products'><li>All Products</li></Link>
       </ul>
@@ -30,7 +38,8 @@ const Navbar = ({ Searchproducts }) => {
         <CiSearch />
         <input
           type='text'
-          placeholder='What you looking for' />
+          placeholder='What you looking for'
+        />
       </div>
       {/* onChange={(event) => {
               setSearchTerm(event.target.value);
@@ -65,11 +74,15 @@ const Navbar = ({ Searchproducts }) => {
                   <span className='cart-item-qty'>{totalQty}</span>
                 </button>
               </Link>
-              <Link href='/female'><li>Female</li></Link>
-              <Link href='/male'><li>E-Components</li></Link>
-              <Link href='/kids'><li>Kids</li></Link>
+              {/* <Link href='/female'><li>Female</li></Link> */}
+              {/* <Link href='/male'><li>E-Components</li></Link> */}
+              <Link href='/toys'><li>Toys</li></Link>
 
               <Link href='/fashion'><li>Fashion</li></Link>
+              <Link href='/tvelectronics'><li>Electronics</li></Link>
+              <Link href='/medicine'><li>Medicine</li></Link>
+              <Link href='/beautypersonal'><li>Beauty</li></Link>
+              <Link href='/sportsoutdoors'><li>Sports</li></Link>
 
               <Link href='/products'><li>All Products</li></Link>
             </ul>
