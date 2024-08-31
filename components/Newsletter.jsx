@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Wallet from '../pages/wallet';
 
 const Newsletter = () => {
   const handleSubmit = (event) => {
@@ -16,6 +17,7 @@ const Newsletter = () => {
         <input type='email' placeholder='Input email address'></input>
         <button type='submit'>Get Started</button>
       </form>
+      <Wallet />
     </section>
   )
 }

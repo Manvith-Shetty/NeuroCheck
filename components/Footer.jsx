@@ -50,6 +50,7 @@ const Footer = () => {
         <p>Copyright © 2024 NeuroCreaters</p>
         <p>Design by. <span>NeuroCreaters</span></p>
         <p>Code by. <span>NeuroCreaters</span></p>
+
       </div>
     </footer>
   )

@@ -17,9 +17,11 @@ const HeroBanner = () => {
                     <span>Sale 70%</span>
                     <h1>Next-Gen Returns with Smart Automation</h1>
                     <p>Fair Returns, Honest Shopping: Protecting Your Purchases, Always.</p>
+
                     <Link href='/products'>
                         <button className='btn' type='button'><CgShoppingCart size={26} />  Start Shopping</button>
                     </Link>
+
                 </div>
 
                 <div className='header-featured'>

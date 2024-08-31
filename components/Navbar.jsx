@@ -30,8 +30,6 @@ const Navbar = ({ Searchproducts }) => {
 
 
 
-
-        <Link href='/products'><li>All Products</li></Link>
       </ul>
 
       <div className='search-bar'>
@@ -84,7 +82,6 @@ const Navbar = ({ Searchproducts }) => {
               <Link href='/beautypersonal'><li>Beauty</li></Link>
               <Link href='/sportsoutdoors'><li>Sports</li></Link>
 
-              <Link href='/products'><li>All Products</li></Link>
             </ul>
           </div>
         )}

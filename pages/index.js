@@ -1,8 +1,8 @@
-import React from 'react'
-import {client} from '../lib/client'
-import { HeroBanner, EventsBanner, Newsletter, FeaturesBanner, Product } from '../components'
-import { Navigation, A11y, Lazy } from 'swiper';
+import React from 'react';
+import { A11y, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { EventsBanner, FeaturesBanner, HeroBanner, Newsletter, Product } from '../components';
+import { client } from '../lib/client';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -13,7 +13,6 @@ const Home = ({products}) => {
     <>
       <HeroBanner />
       <EventsBanner />
-
       <div className='products-outer-container'>
         <div className='subtitle'>
           <span>PRODUCTS</span>
