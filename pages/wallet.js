@@ -9,6 +9,7 @@ import nacl from "tweetnacl";
 
 export default function Wallet() {
   const [mnemonic, setMnemonic] = useState('');
+  
 
   function createMnemonic() {
     const newMnemonic = generateMnemonic();
