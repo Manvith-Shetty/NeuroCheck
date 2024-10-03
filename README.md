@@ -20,7 +20,7 @@ Our solution integrates **Generative AI** with **smart contracts** to revolution
 
 ## Screenshots
 
-![Design overview for NeuroCheck e-commerce](./src/assets/)
+![Design overview for NeuroCheck e-commerce](./src/assets/home_page)
 
 ## Project URL
 
